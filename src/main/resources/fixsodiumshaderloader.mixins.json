@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.coco.fixsodiumshaderloader.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": ["MixinShaderLoader"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
